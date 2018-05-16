@@ -24,11 +24,11 @@ angular.module('reg')
       // All this just for dietary restriction checkboxes fml
 
       var dietaryRestrictions = {
-        'Vegetarian': false,
         'Vegan': false,
-        'Halal': false,
-        'Kosher': false,
-        'Nut Allergy': false
+        'Ovo-Vegetarian': false,
+        'Lacto-Vegetarian': false,
+        'Lacto-Ovo Vegetarians': false,
+        'Pescetarians': false
       };
 
       if (user.confirmation.dietaryRestrictions){
